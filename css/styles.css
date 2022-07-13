@@ -3,6 +3,7 @@
     height: 600px;
     background-color: #4d0f00;
     overflow: hidden; /* This is needed for the text to not overflow instead of using padding 1px. */
+    filter: blur(2px);
 }
 
 .frame {
