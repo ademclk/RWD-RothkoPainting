@@ -2,6 +2,7 @@
     width: 500px;
     height: 600px;
     background-color: #4d0f00;
+    overflow: hidden; /* This is needed for the text to not overflow instead of using padding 1px. */
 }
 
 .frame {
@@ -16,7 +17,6 @@
     height: 150px;
     background-color: #efb762;
     margin: 20px auto;
-    overflow: hidden; /* This is needed for the text to not overflow instead of using padding 1px. */
 }
 
 .two {
